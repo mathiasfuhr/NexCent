@@ -29,6 +29,14 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 2000px;
+}
+
+.title {
+  color: #4d4d4d;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 122.22%;
 }
 
 .subtitle {
@@ -40,6 +48,7 @@ body {
 
 header {
   background-color: #f5f7fa;
+  height: 84px;
 }
 
 .header {
@@ -47,7 +56,6 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 90px;
 }
 
 .header nav ul {
@@ -120,6 +128,11 @@ a.btn:hover {
 
 /*MAIN*/
 
+main {
+  background-color: #f5f7fa;
+  padding: 90px 0px;
+}
+
 .main {
   display: flex;
   justify-content: space-between;
@@ -160,3 +173,37 @@ a.btn:hover {
     display: none;
   }
 }
+
+/*CLIENTS*/
+
+.section-clients {
+  padding: 40px 0px;
+}
+
+.clients {
+  text-align: center;
+}
+
+.clients .subtitle {
+  margin-bottom: 8px;
+}
+
+.clients .subtitle {
+  margin-bottom: 51px;
+}
+
+.section-clients {
+  text-align: center; /* Alinha o conteúdo ao centro */
+}
+
+.clients ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.clients ul li {
+  margin: 10px;
+}
+
